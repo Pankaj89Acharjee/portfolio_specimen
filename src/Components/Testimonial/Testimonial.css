@@ -1,0 +1,175 @@
+.testimonial .container {
+    margin-top: 200px;
+}
+
+.testimonial h2 {
+    margin: 15px 0 0 0;
+  }
+
+  .testimonial h4 {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .testimonial h1 {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .testimonial .left {
+    width: 35%;
+    padding: 35px;
+    margin: 20px;
+  }
+  .testimonial .right {
+    width: 65%;
+    padding: 0 0 0 50px;
+    margin: 0 20px 0 0;
+  }
+  .testimonial .quote i {
+    font-size: 150px;
+    opacity: 0.3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .testimonial .content {
+    padding: 50px;
+  }
+  .testimonial .content h1 {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .testimonial .content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .testimonial .content p {
+    font-weight: 400px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+  }
+  .testimonial .slide_button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .testimonial .slide_button .prev_btn {
+    margin-right: 30px;
+  }
+  .testimonial .details span {
+    color: #ff014f;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .testimonial .details label {
+    color: #ff014f;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /*-----Testimonial slide-----------*/
+  .testimonial .slide {
+    max-width: 80%;
+    margin: auto;
+    height: 500px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+  article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  article.lastSlide {
+    transform: translateX(-100%);
+  }
+  article.nextSlide {
+    transform: translateX(100%);
+  }
+
+  article img {
+    border-radius: 40%;
+  }
+  /*-----Testimonial slide-----------*/
+  @media (max-width: 768px) {
+    .testimonial .container{
+      width: 50%;
+    }
+    article {
+      flex-direction: column;
+      padding: 20px;
+    }
+    .testimonial .left {
+      width: 100%;
+      display: flex;
+      margin: 0;
+      margin-top: 15%;
+    }
+    .testimonial .left .image {
+      width: 90%;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    .testimonial .left img {
+      width: 50%;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+
+    .testimonial .right {
+      width: 100%;
+      margin: 0;
+      padding: 0 0 0 5px;
+    }
+    .testimonial .slide {
+      height: 70vh;
+      max-width: 90%;
+    }
+    .testimonial .quote {
+      display: none;
+    }
+
+    .testimonial .right p{
+      font-size: 12px;
+    }
+
+    .testimonial .right .content{
+      margin-top: 10px;
+    }
+
+    .testimonial .slide_button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+
+    .testimonial .left h2 {
+     font-size: 12px;
+    }
+
+    .testimonial .left span, label {
+      font-size: 13px;
+     }
+
+     .testimonial .left .details{
+       width: 30%;
+       margin-left: 2px;
+     }
+  }
+  

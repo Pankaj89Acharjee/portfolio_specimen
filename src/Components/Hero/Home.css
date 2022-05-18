@@ -1,0 +1,276 @@
+.hero {
+    position: relative;
+    
+}
+.hero h3{
+    
+    letter-spacing: 2px;
+    color: #0f050e;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #df071d;
+}
+
+.hero h1 span{
+    color: #36f107;
+}
+
+.hero h2 span{
+    color: #5c0202;
+    
+    
+}
+
+.hero p {
+    color: #0c0003;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+.hero btn {
+    margin-top: 20%;
+}
+.hero_btn h4{
+    margin-top: 20%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #01000e;
+    font-size: 15px;
+    margin: 30px 0 30px 0;
+    font-weight: 800;
+}
+
+.hero_btn button{
+    margin-right: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #1404eb;
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+    font-weight: 800;
+    gap: 2px;  
+    left: 6px; 
+}
+
+
+
+.hero_btn button img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero .left {
+    margin-left: 10%;
+}
+
+.hero .right {
+    width: 40%;
+    position: relative;
+}
+
+/*.hero .right_img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #f88b96, 16px 0 8px #eca0a0;
+    
+}*/
+
+.hero .right_img {
+    border-radius: 10px;
+    height: 580px;
+    width: 510px;
+    margin-top: 20%;
+}
+
+.hero .right_img img {
+    position: absolute;
+    top: 0;
+    right: 8%;
+    width: 450px;
+    
+    
+}
+
+.row,
+.left,
+.right {
+    width: 50%;
+}
+
+.top {
+    margin-top: 80px;
+}
+
+.mtop {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .hero .right,
+    .hero .left {
+        width: 80%;
+    }
+
+    .hero .container{
+        width: 50%;
+    }
+
+    .hero .f_flex{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+
+    .hero .right_img{        
+        height: 50vh;
+    }
+    
+    .hero .right_img img{
+       width: 95%;
+    }
+    .hero .right{
+        margin-top: none;
+    }
+
+    .top {
+        margin-top: 30px;
+    }
+
+    .hero .paragraph p {
+        color: #0a0103;
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 70px;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-right: 20px;
+        align-items:stretch;
+        
+    }
+
+    .hero .spanContent{
+        margin-bottom: 50px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #df071d;
+    }
+
+    .hero h2 span{
+        color: #5c0202;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .hero_btn .button{
+        margin-right: 15px;
+        letter-spacing: 2px;
+        color: #c9a531;
+        font-size: 15px;
+        margin: 30px 0 30px 0;
+        gap: 2px;  
+        left: 1px;
+        display: flex;
+        flex-direction: column; 
+        padding: 10px;
+       
+    }             
+}
+
+
+@media (max-width: 992px) {
+    .hero .right,
+    .hero .left {
+        width: 100%;
+    }
+
+    .hero .container{
+        width: 60%;
+    }
+
+    .hero .f_flex{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+
+    .hero .right_img{        
+        height: 50vh;
+    }
+    
+    .hero .right_img img{
+       width: 85%;
+    }
+    .hero .right{
+        margin-top: none;
+    }
+
+    .top {
+        margin-top: 280px;
+    }
+
+    .hero .paragraph p {
+        color: #0a0103;
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 70px;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-right: 20px;
+        align-items:stretch;
+        
+    }
+
+    .hero .spanContent{
+        margin-bottom: 50px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #df071d;
+    }
+
+    .hero h2 span{
+        color: #5c0202;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .hero_btn .button{
+        margin-right: 15px;
+        letter-spacing: 2px;
+        color: #c9a531;
+        font-size: 15px;
+        margin: 30px 0 30px 0;
+        gap: 2px;  
+        left: 1px;
+        display: flex;
+        flex-direction: column; 
+        padding: 10px;
+       
+    }             
+}

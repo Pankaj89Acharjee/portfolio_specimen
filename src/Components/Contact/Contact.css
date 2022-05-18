@@ -1,0 +1,168 @@
+.contact .content{
+    max-width: 100%;
+    position: relative;
+    left: 0;
+    margin-bottom: 10%;
+}
+
+.contact .left{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact .right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 45px;
+    margin-left: 10%;    
+    background: none;
+}
+
+.contact .box{
+    padding: 30px;
+}
+
+.contact .details h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:  20px 0 20px 0;
+    color: rgb(8, 1, 22);
+
+}
+
+.contact .details p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 5, 0);
+}
+
+.contact .details{
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contact .button{
+    margin-top: 20px;
+}
+
+
+
+.contact input{
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0.9rem;
+    padding: 5px;
+    
+    justify-content: center;
+
+}
+
+.contact textarea{
+    resize: none;
+
+    
+}
+
+.contact .textBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: black;
+}
+
+.contact button{
+   width: 100%;
+}
+.contact .submitBtn i{
+    margin-left: 6px;
+}
+
+.contact .button .fb{
+    margin-right: 30px;
+    size: 20px;
+    width: 50px;
+    color: blue;
+    font-size: large;
+}
+
+.contact .button .fb:hover{
+    color: azure;
+}
+
+.contact .heading h1 {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.contact .heading h4 {
+    font-weight: bolder;
+  }
+
+.contact .container{
+    margin-top: 200px;
+}
+
+@media(max-width: 768px) {
+    .contact .content{
+        max-width: 60%;
+        position: relative;
+        left: 0;
+        margin-bottom: 10%;
+    }
+
+    .contact .right{
+        padding: 45px;
+        margin-left: 10%;
+        position: absolute;
+        width: 100%;
+        background: none;
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;              
+    }
+    
+    .contact .right textarea{
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .contact .right button{
+        
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .contact .left{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-right: 50px;
+    }
+
+    .contact .left img{
+        width: 1500%;
+        margin-right: 6px;
+    }
+
+    .contact .left .details{
+        opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 500px;
+        align-self: center;
+        margin-left: 360px;
+    }
+}

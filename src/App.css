@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/*Imported from google fonts>> poppins*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: white;
+  /*background: linear-gradient(110deg, #fdcd3b 60%,  #ffed4b 60%);*/
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.f_flex {
+  display: flex;
+  
+}
+
+.foot_flex {
+  display: flex;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  background-color: none;
+  outline: none;
+}
+
+.btn_shadow {
+  padding: 18px 20px;
+  border-radius: 8px;
+  transition: 0.4s all ease;
+  cursor: pointer;
+  color: black;
+  
+}
+
+.btn_shadow {
+  background: linear-gradient(145deg, #e2ebec, #ffffff);
+  box-shadow: 4px 4px 8px #bcbcbc, 4px -4px 4px #ffffff;
+}
+
+.box_shadow {
+  background: linear-gradient(145deg, #e2ebec, #ffffff);
+  box-shadow: 4px 4px 8px #918d8d, 4px -4px 4px #ffffff;
+}
+
+
+.btn_shadow:hover {
+  background: #ff014f;
+  color: #e2ebec;
+  transform: translateY(-10px);
+}
+
+.heading {
+  margin: 50px 0 50px 0;
+}
+
+.heading h4 {
+  color: hsl(17, 100%, 50%);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+
+.heading h1 {
+  font-size: 60px;
+  color: #000000;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+
+p {
+  color: #050505;
+}
+
+.text-center {
+  text-align: center;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 20px;
+    font-size: xx-large;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #bcbcbc;
+    margin-bottom: 20px;
+  }
+
+footer {
+  margin: 20% 0 10% 0;
+  
+}
+
+@media (max-width: 768px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+
+ 
+}

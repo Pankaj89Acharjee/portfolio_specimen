@@ -1,0 +1,43 @@
+.features .box{
+    padding: 50px;
+}
+
+.features .box h2{
+    margin: 20px 0 20px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.features .box p {
+    word-spacing: 2px;
+    font-size: larger;
+    transition: 0.5s;
+    font-weight: bold;
+}  
+
+.features .box i {
+    font-size: 30px;
+    margin: 20px;
+    transition: 0.7s;
+    opacity: 0;
+}
+.features .box:hover p{
+    color: white;
+}
+
+.features .box:hover i {
+    opacity: 1;
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .features .container {
+        width: 40%;
+    }
+}
+
+@media(max-width: 375px) {
+    .features .container {
+        width: 80%;
+    }
+}
